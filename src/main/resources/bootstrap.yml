@@ -1,0 +1,17 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: 'currency-exchange-service'
+  datasource:
+    url: 'jdbc:h2:mem:test_database'
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  data:
+    jpa:
+      repositories:
+        bootstrap-mode: default
