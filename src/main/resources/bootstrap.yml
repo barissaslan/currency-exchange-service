@@ -3,9 +3,9 @@ server:
 
 spring:
   application:
-    name: 'currency-exchange-service'
+    name: currency-exchange-service
   datasource:
-    url: 'jdbc:h2:mem:test_database'
+    url: jdbc:h2:mem:test_database
   jpa:
     show-sql: true
   h2:
